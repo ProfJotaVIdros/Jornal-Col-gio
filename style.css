@@ -42,12 +42,13 @@ main {
     justify-content: center;
     z-index: 1;
     margin-left: 1vh;
+    margin-bottom: 20px;
     overflow: hidden;
 }
 
 #sidebar {
     background: #decfbaee;
-    height: 90vh;
+    height: 100%;
     position: absolute;
     z-index: 2;
 }
@@ -128,9 +129,11 @@ main {
     bottom: 2px;
     right: 8px;
     margin-bottom: 5px;
+    margin-left: 10px;
     background: #ffffffcc;
     color: #06132d;
     padding: 3px;
+    text-justify: auto;
 }
 
 .acolhimento a h2 {
@@ -149,7 +152,7 @@ main {
     background: #790cb0cc;
 }
 
-.outros a h2 {
+.outro a h2 {
     background: #faed3ccc;
 }
 
@@ -158,5 +161,13 @@ main {
 }
 
 #sec2 {
-    background-image: url(img/elis-reflexao-atemporal/capa.jpg);
+    background-image: url(https://picsum.photos/1920/1080);
+}
+
+#sec3 {
+    background-image: url(https://picsum.photos/1920/1080);
+}
+
+#sec4 {
+    background-image: url(https://picsum.photos/1920/1080);
 }
