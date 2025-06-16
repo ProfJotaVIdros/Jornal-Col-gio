@@ -24,13 +24,6 @@ header {
     z-index: 3;
 }
 
-#logo_img {
-    width: 90px;
-    height: 90px;
-    object-fit: cover;
-    border-radius: 100%;
-}
-
 header h1 {
     color: #decfba;
     font-family: "Bebas Neue", sans-serif;
@@ -56,19 +49,14 @@ main {
 
 #menu_btn {
     width: 60px;
-    background: #decfba;
-    color: #000;
+    background: #000;
+    color: #decfba;
     font-size: 25px;
     margin: 15px;
     padding: 10px 15px;
     border: none;
     border-radius: 10px;
     cursor: pointer;
-}
-
-#menu_btn:hover {
-    background: #000;
-    color: #decfba;
 }
 
 #menu_items {
@@ -139,33 +127,30 @@ main {
 
 /* CSS das Páginas */
 #page_main {
-    flex: 1;
     display: flex;
     min-height: 100vh;
     flex-direction: column;
 }
 
-#page_title {
+#page_main h2 {
     background-color: #aaa;
     font-size: 24px;
     text-align: center;
     padding: 20px 0;
 }
 
-#page_article {
+#page_main span {
+    background-color: #ccc;
+    font-size: 0.7rem;
+    font-weight: light;
+}
+
+#page_main article {
     margin: 20px 1vh;
-    font-size: 1.3rem;
+    font-size: 1.2rem;
     text-align: justify;
     text-indent: 35px;
     line-height: 1.5;
-}
-
-#article_footer {
-    margin-top: auto;
-    text-align: center;
-    text-indent: 0;
-    background-color: #aaa;
-    font-size: 1rem;
 }
 
 /* Classes das Categorias */
