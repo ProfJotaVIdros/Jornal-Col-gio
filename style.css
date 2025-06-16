@@ -125,6 +125,23 @@ main {
     text-justify: auto;
 }
 
+footer {
+    display: flex;
+    background-color: #000;
+    height: 5vh;
+    justify-content: space-between;
+}
+
+footer a {
+    color: #decfba;
+    margin: 0 10px;
+    text-decoration: none;
+}
+
+footer a img {
+    width: 20px;
+}
+
 /* CSS das Páginas */
 #page_main {
     display: flex;
